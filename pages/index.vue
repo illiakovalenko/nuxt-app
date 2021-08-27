@@ -40,7 +40,7 @@ export default Vue.extend({
     }
   },
   methods: {
-    getImgUrl(i) {
+    getImgUrl(i: number) {
       return `${baseUrl}abstract0${i + 1}.jpg`
     },
   },
